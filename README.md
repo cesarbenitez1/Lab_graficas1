@@ -4,7 +4,7 @@ Supongamos que estás realizando un estudio sobre el rendimiento académico de l
 
 Utiliza el siguiente script para generar datos sintéticos para el análisis:
 Markdown:
-´´´Python
+```Python
 import numpy as np
 
 rng = np.random.default_rng(42)
@@ -23,7 +23,7 @@ errores_ciencias = [min(errores_ciencias), max(errores_ciencias)]
 
 errores_literatura = rng.uniform(3, 6, 2)
 errores_literatura = [min(errores_literatura), max(errores_literatura)]
-´´´
+```
 
 
 ## Gráfico de dispersión:
