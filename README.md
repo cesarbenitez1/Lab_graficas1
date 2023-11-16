@@ -3,8 +3,9 @@ Graficas 1
 Supongamos que estás realizando un estudio sobre el rendimiento académico de los estudiantes en tres materias: Matemáticas, Ciencias y Literatura. Tienes los datos de las calificaciones de una muestra de estudiantes y deseas realizar un análisis visual de los resultados.
 
 Utiliza el siguiente script para generar datos sintéticos para el análisis:
-
-´´´import numpy as np
+Markdown:
+´´´Python
+import numpy as np
 
 rng = np.random.default_rng(42)
 
